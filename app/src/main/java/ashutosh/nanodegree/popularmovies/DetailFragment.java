@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v4.content.Loader;
 import android.support.v7.graphics.Palette;
+import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.CardView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -53,7 +54,7 @@ public class DetailFragment extends BaseFragment implements View.OnClickListener
     private LinearLayout llReview, trailersLinearLayout;
     private View trailerSeparator, reviewSeparator;
     private Palette palette;
-    private Button markAsFav;
+    private AppCompatButton markAsFav;
     private Movies movie;
     private boolean isFavStatus;
 
@@ -82,7 +83,7 @@ public class DetailFragment extends BaseFragment implements View.OnClickListener
         trailersLinearLayout = (LinearLayout) rootView.findViewById(R.id.ll_trailers);
         reviewTitle = (TextView) rootView.findViewById(R.id.tv_title_reviews);
         trailerTitle = (TextView) rootView.findViewById(R.id.tv_aid_trailers);
-        markAsFav = (Button) rootView.findViewById(R.id.mark_as_fav);
+        markAsFav = (AppCompatButton) rootView.findViewById(R.id.mark_as_fav);
 
 
         if (getActivity().getIntent().hasExtra("itemDetails")) {
