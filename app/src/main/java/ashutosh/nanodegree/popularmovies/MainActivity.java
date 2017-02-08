@@ -15,7 +15,7 @@ import android.widget.FrameLayout;
 
 import com.github.clans.fab.FloatingActionMenu;
 
-import ashutosh.nanodegree.Application.BaseActivity;
+import ashutosh.nanodegree.application.BaseActivity;
 import ashutosh.nanodegree.adapter.RecyclerViewAdapter;
 import ashutosh.nanodegree.beans.Movies;
 import ashutosh.nanodegree.beans.MoviesContent;

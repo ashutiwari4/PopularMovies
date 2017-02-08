@@ -6,7 +6,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
-import ashutosh.nanodegree.Application.BaseActivity;
+import ashutosh.nanodegree.application.BaseActivity;
 
 /**
  * An activity representing a single Item detail screen. This

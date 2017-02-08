@@ -30,8 +30,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import ashutosh.nanodegree.Application.BaseActivity;
-import ashutosh.nanodegree.Application.BaseFragment;
+import ashutosh.nanodegree.application.BaseActivity;
+import ashutosh.nanodegree.application.BaseFragment;
 import ashutosh.nanodegree.beans.Movies;
 import ashutosh.nanodegree.beans.SuperModel;
 import ashutosh.nanodegree.database.AppDatabase;
